@@ -20,5 +20,4 @@ services:
     entrypoint:
     # override the entrypoint with custom startup script
     - /filebeat/start.sh
-volumes:
-  nginx-pibeat:
+    restart: unless-stopped
