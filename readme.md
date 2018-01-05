@@ -1,7 +1,7 @@
 # Elastic/Filebeat on my Raspberry Pi
 
 ## Background
-I wanted to be able to ship log data from my raspberry pi to an ELK stack.  In my case, I'm using the pi as an NGINX proxy.  I liked the idea since my raspberry pis seem to always be on. They should be able to reliably log requests, even when downstream applications/servers are off-line.
+I wanted to be able to ship log data from my raspberry pi to an ELK stack.  In my case, I'm using the pi as an NGINX proxy.  I liked the idea since my raspberry pis seem to always be on. They should be able to reliably log requests, even when upstream applications/servers are off-line.
 ## Build
 A bit of googling makes you realize there's not currently an apt-get approach to get filebeat on the pi, so you have to build it.
 
