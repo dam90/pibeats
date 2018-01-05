@@ -12,7 +12,7 @@ services:
     # read-only access to the nginx logs on the rpi host
     - /var/log/nginx/:/var/log/nginx:ro
     # read-only access to the hosts file on the host
-    # (this is helpful for local netowrk stuff... where I don't have a DNS)
+    # (this is helpful for local networkrk stuff... where I don't have a DNS)
     - /etc/hosts:/etc/hosts:ro
     # For a persistent registry, use a volume.
     # Otherwise don't use this... logs will entirely re-ship when the container restarts

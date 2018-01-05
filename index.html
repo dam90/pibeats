@@ -1,0 +1,9 @@
+<script>var hashRoute = '/app/kibana';
+var defaultRoute = '/app/kibana';
+
+var hash = window.location.hash;
+if (hash.length) {
+  window.location = hashRoute + hash;
+} else {
+  window.location = defaultRoute;
+}</script>
